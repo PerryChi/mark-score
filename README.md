@@ -1,6 +1,6 @@
 # @perrychi/mark-score
 
-> A react editable and sortable tree component based on antd tree
+> A React-based component for scoring by selecting the number of stars.
 
 ## Interaction
 
