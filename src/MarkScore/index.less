@@ -1,0 +1,27 @@
+@rate-prefix-cls: perrychi-markscore;
+
+.@{rate-prefix-cls} {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  &-oneStarBox {
+    position: relative;
+    margin-right: 3%;
+
+    &-leftHalf {
+      position: absolute;
+      width: 50%;
+    }
+
+    &-rightHalf {
+      position: absolute;
+      left: 50%;
+      width: 50%;
+    }
+  }
+
+  &-defaultColor {
+    color: #fadb14;
+  }
+}
